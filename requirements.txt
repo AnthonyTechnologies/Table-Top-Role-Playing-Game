@@ -1,3 +1,2 @@
 sphinx>=7.0.0
 furo
-sphinx-rtd-theme
