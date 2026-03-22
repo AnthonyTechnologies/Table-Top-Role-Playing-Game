@@ -11,11 +11,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Ensure src is on sys.path for autodoc
-ROOT = Path(__file__).parent.parent.resolve()
-SRC = ROOT / "src"
-if SRC.is_dir() and str(SRC) not in sys.path:
-    sys.path.insert(0, str(SRC))
+# Ensure root is on sys.path for autodoc
+ROOT = Path(__file__).parent.resolve()
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 # Project Information #
 project = 'Table Top Role Playing Game'
