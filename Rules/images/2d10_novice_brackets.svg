@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <defs>
+    <style>
+      .bg { fill: #f8f9fa; rx: 10px; }
+      .bar-default { fill: #4682B4; rx: 3px; }
+      .text-val { font-family: sans-serif; font-size: 14px; fill: #333; text-anchor: middle; font-weight: bold; }
+      .text-label { font-family: sans-serif; font-size: 16px; fill: #333; text-anchor: middle; font-weight: bold; }
+      .axis { stroke: #333; stroke-width: 2; }
+      .title { font-family: sans-serif; font-size: 24px; fill: #333; text-anchor: middle; font-weight: bold; }
+      .bracket-line { stroke-width: 2; fill: none; }
+      .bracket-text { font-family: sans-serif; font-size: 16px; text-anchor: middle; font-weight: bold; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" />
+  <text x="400.0" y="40" class="title">Unmodified 2d10 (Novice Difficulty)</text>
+  <path d="M 65 105 L 65 90 L 348 90 L 348 105" stroke="#d9534f" class="bracket-line" />
+  <text x="206" y="80" fill="#d9534f" class="bracket-text">Disaster (36%)</text>
+  <path d="M 353 105 L 353 90 L 531 90 L 531 105" stroke="#f0ad4e" class="bracket-line" />
+  <text x="442" y="80" fill="#f0ad4e" class="bracket-text">Fumble (43%)</text>
+  <path d="M 536 105 L 536 90 L 714 90 L 714 105" stroke="#5cb85c" class="bracket-line" />
+  <text x="625" y="80" fill="#5cb85c" class="bracket-text">Standard (20%)</text>
+  <path d="M 719 105 L 719 90 L 745 90 L 745 105" stroke="#5bc0de" class="bracket-line" />
+  <text x="732" y="80" fill="#5bc0de" class="bracket-text">P (1%)</text>
+  <line x1="60" y1="360" x2="740" y2="360" class="axis" />
+  <rect x="65.0" y="338.0" width="25.789473684210527" height="22.0" fill="#d9534f" rx="3" />
+  <text x="77.89473684210526" y="330.0" class="text-val" style="font-size:10px">1%</text>
+  <text x="77.89473684210526" y="385" class="text-label">2</text>
+  <rect x="100.78947368421052" y="316.0" width="25.789473684210527" height="44.0" fill="#d9534f" rx="3" />
+  <text x="113.68421052631578" y="308.0" class="text-val" style="font-size:10px">2%</text>
+  <text x="113.68421052631578" y="385" class="text-label">3</text>
+  <rect x="136.57894736842104" y="294.0" width="25.789473684210527" height="66.0" fill="#d9534f" rx="3" />
+  <text x="149.4736842105263" y="286.0" class="text-val" style="font-size:10px">3%</text>
+  <text x="149.4736842105263" y="385" class="text-label">4</text>
+  <rect x="172.3684210526316" y="272.0" width="25.789473684210527" height="88.0" fill="#d9534f" rx="3" />
+  <text x="185.26315789473685" y="264.0" class="text-val" style="font-size:10px">4%</text>
+  <text x="185.26315789473685" y="385" class="text-label">5</text>
+  <rect x="208.1578947368421" y="250.0" width="25.789473684210527" height="110.0" fill="#d9534f" rx="3" />
+  <text x="221.05263157894737" y="242.0" class="text-val" style="font-size:10px">5%</text>
+  <text x="221.05263157894737" y="385" class="text-label">6</text>
+  <rect x="243.94736842105263" y="228.0" width="25.789473684210527" height="132.0" fill="#d9534f" rx="3" />
+  <text x="256.8421052631579" y="220.0" class="text-val" style="font-size:10px">6%</text>
+  <text x="256.8421052631579" y="385" class="text-label">7</text>
+  <rect x="279.7368421052632" y="206.0" width="25.789473684210527" height="154.0" fill="#d9534f" rx="3" />
+  <text x="292.63157894736844" y="198.0" class="text-val" style="font-size:10px">7%</text>
+  <text x="292.63157894736844" y="385" class="text-label">8</text>
+  <rect x="315.5263157894737" y="184.0" width="25.789473684210527" height="176.0" fill="#d9534f" rx="3" />
+  <text x="328.42105263157896" y="176.0" class="text-val" style="font-size:10px">8%</text>
+  <text x="328.42105263157896" y="385" class="text-label">9</text>
+  <rect x="351.3157894736842" y="162.0" width="25.789473684210527" height="198.0" fill="#f0ad4e" rx="3" />
+  <text x="364.2105263157895" y="154.0" class="text-val" style="font-size:10px">9%</text>
+  <text x="364.2105263157895" y="385" class="text-label">10</text>
+  <rect x="387.10526315789474" y="140.0" width="25.789473684210527" height="220.0" fill="#f0ad4e" rx="3" />
+  <text x="400.0" y="132.0" class="text-val" style="font-size:10px">10%</text>
+  <text x="400.0" y="385" class="text-label">11</text>
+  <rect x="422.89473684210526" y="162.0" width="25.789473684210527" height="198.0" fill="#f0ad4e" rx="3" />
+  <text x="435.7894736842105" y="154.0" class="text-val" style="font-size:10px">9%</text>
+  <text x="435.7894736842105" y="385" class="text-label">12</text>
+  <rect x="458.6842105263158" y="184.0" width="25.789473684210527" height="176.0" fill="#f0ad4e" rx="3" />
+  <text x="471.57894736842104" y="176.0" class="text-val" style="font-size:10px">8%</text>
+  <text x="471.57894736842104" y="385" class="text-label">13</text>
+  <rect x="494.47368421052636" y="206.0" width="25.789473684210527" height="154.0" fill="#f0ad4e" rx="3" />
+  <text x="507.3684210526316" y="198.0" class="text-val" style="font-size:10px">7%</text>
+  <text x="507.3684210526316" y="385" class="text-label">14</text>
+  <rect x="530.2631578947369" y="228.0" width="25.789473684210527" height="132.0" fill="#5cb85c" rx="3" />
+  <text x="543.1578947368422" y="220.0" class="text-val" style="font-size:10px">6%</text>
+  <text x="543.1578947368422" y="385" class="text-label">15</text>
+  <rect x="566.0526315789474" y="250.0" width="25.789473684210527" height="110.0" fill="#5cb85c" rx="3" />
+  <text x="578.9473684210527" y="242.0" class="text-val" style="font-size:10px">5%</text>
+  <text x="578.9473684210527" y="385" class="text-label">16</text>
+  <rect x="601.8421052631579" y="272.0" width="25.789473684210527" height="88.0" fill="#5cb85c" rx="3" />
+  <text x="614.7368421052632" y="264.0" class="text-val" style="font-size:10px">4%</text>
+  <text x="614.7368421052632" y="385" class="text-label">17</text>
+  <rect x="637.6315789473684" y="294.0" width="25.789473684210527" height="66.0" fill="#5cb85c" rx="3" />
+  <text x="650.5263157894738" y="286.0" class="text-val" style="font-size:10px">3%</text>
+  <text x="650.5263157894738" y="385" class="text-label">18</text>
+  <rect x="673.421052631579" y="316.0" width="25.789473684210527" height="44.0" fill="#5cb85c" rx="3" />
+  <text x="686.3157894736843" y="308.0" class="text-val" style="font-size:10px">2%</text>
+  <text x="686.3157894736843" y="385" class="text-label">19</text>
+  <rect x="709.2105263157895" y="338.0" width="25.789473684210527" height="22.0" fill="#5bc0de" rx="3" />
+  <text x="722.1052631578948" y="330.0" class="text-val" style="font-size:10px">1%</text>
+  <text x="722.1052631578948" y="385" class="text-label">20</text>
+</svg>

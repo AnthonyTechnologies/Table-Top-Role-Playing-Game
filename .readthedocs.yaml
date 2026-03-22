@@ -1,0 +1,17 @@
+# .readthedocs.yaml configuration file
+version: 2
+
+# Build documentation in the docs/ directory with Sphinx
+sphinx:
+  configuration: conf.py
+
+# Build documentation with Python 3.12
+python:
+  install:
+    - requirements: requirements.txt
+
+# Specify build directory for Sphinx
+formats:
+  - htmlzip
+  - pdf
+  - epub
