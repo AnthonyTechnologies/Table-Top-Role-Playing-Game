@@ -35,6 +35,8 @@ When the GM initiates a compel:
 **Game Methodology: Fueling the Fates**
 Compelled Actions create a self-sustaining narrative loop. By allowing the GM to introduce complications based on character flaws, the player gains the meta-narrative currency (IPs) needed to exert agency elsewhere. This methodology encourages players to lean into interesting failures and internal conflicts, knowing that their willingness to suffer narratively today will provide the "fate" needed to succeed heroically tomorrow.
 
+.. _action_rolls:
+
 3. Action Rolls
 ---------------
 An **Action Roll** is the bridge between a character's intent and the narrative reality. While characters constantly perform mundane actions through narration and resource expenditure, a roll is required whenever an outcome is hindered by significant risk, opposition, or external complications.
