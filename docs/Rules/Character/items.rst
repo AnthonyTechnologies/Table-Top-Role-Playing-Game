@@ -47,9 +47,9 @@ Defines how the item is used or carried:
     *   **Trinket:** Amulets, rings, or small charms. (2 Slots)
     *   **Weapon/Tool:** Swords, bows, hammers, or specialized kits. (2 Slots)
 
-6. **Quality Tags**
+6. **Persona Tags**
 ~~~~~~~~~~~~~~~~~~~~
-Items possess their own **Quality Tags**—descriptive keywords that act as tangible qualities of the object (e.g., *[Sharp]*, *[Heated]*, *[Concealable]*). These tags can be invoked during an **Action Roll** via **The Quality Edge**, representing how the tool's properties assist the character. (See: :ref:`quality_edge`)
+Items possess their own **Persona Tags**—descriptive keywords that act as tangible qualities of the object (e.g., *[Sharp]*, *[Heated]*, *[Concealable]*). These tags can be invoked during an **Action Roll** via **Persona's Edge**, representing how the tool's properties assist the character. (See: :ref:`persona_edge`)
 
 7. **Description**
 ~~~~~~~~~~~~~~~~~~~
@@ -79,3 +79,25 @@ A character's standard equipment capacity is defined by the following slots:
 
 **Equipping Items**
 Only items assigned to these slots provide persistent mechanical effects or can be used as a free part of an action. While characters may carry many other items, they must be "Equipped" into a slot to be fully functional. (Note: All items implicitly act as narrative tools where appropriate.)
+.. _encumbrance:
+.. _inventory_and_encumbrance:
+
+
+Inventory & Encumbrance
+------------------------
+
+**Inventory** represents all items carried by the character that are not currently equipped in an active slot. Every item has an **Encumbrance Point (EP)** value reflecting its weight, bulk, and difficulty to transport. (See: :ref:`items`)
+
+**Encumbrance Points (EP)**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The total burden of a character is the sum of the EP values of **all** carried items. This includes gear currently equipped in **Equipment Slots** as well as items stowed in the **Inventory**.
+
+*   **Standard Capacity:** A character's standard carrying capacity is a flat baseline of **10 Encumbrance Points (EP)**.
+*   **Minor Items:** Small, negligible items do not contribute to EP unless carried in significant bulk.
+
+**Encumbrance & Exhaustion**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If a character's total EP exceeds their standard capacity, they suffer from physical and mental strain.
+
+*   **Mechanical Effect:** For every EP beyond their capacity, the character must **Reserve 1 Stamina**. This represents the ongoing physical toll of maintaining their gear and the mental fatigue of managing a complex load.
+*   **Overburdened:** If a character's Stamina pool is fully reserved or depleted by their EP burden, they become **Overburdened**. In this state, they cannot take any **Action Rolls** involving physical movement or complex agility until they drop enough weight to free at least 1 point of Stamina.

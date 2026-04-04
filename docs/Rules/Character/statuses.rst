@@ -25,9 +25,9 @@ The **Category** of a status represents its overall impact on a character's capa
 *   **Major:** Severe impacts that can cripple a character's core functions.
 *   **Critical:** Dire states that represent life-threatening hazards or extreme narrative shifts.
 
-3. **Quality Tags**
+3. **Persona Tags**
 ~~~~~~~~~~~~~~~~~~~~
-Statuses possess their own **Quality Tags**—descriptive keywords that act as tangible qualities of the condition (e.g., *[Physical]*, *[Mental]*, *[Bleeding]*). These tags can be invoked during an **Action Roll** via **The Quality Edge**. For example, a character who is *[Inspired]* might invoke that quality to gain an edge on a difficult roll, while an enemy might invoke a character's *[Rattled]* status to gain an edge against them. (See: :ref:`quality_edge`)
+Statuses possess their own **Persona Tags**—descriptive keywords that act as tangible qualities of the condition (e.g., *[Physical]*, *[Mental]*, *[Bleeding]*). These tags can be invoked during an **Action Roll** via **Persona's Edge**. For example, a character who is *[Inspired]* might invoke that persona to gain an edge on a difficult roll, while an enemy might invoke a character's *[Rattled]* status to gain an edge against them. (See: :ref:`persona_edge`)
 
 4. **Description**
 ~~~~~~~~~~~~~~~~~~~
@@ -39,7 +39,7 @@ Defines the specific triggers or conditions under which the status's mechanical 
 
 6. **Mechanical Effect**
 ~~~~~~~~~~~~~~~~~~~~~~~~
-The specific rules modification imposed by the status once activated. This usually involves penalties to **Attributes**, restrictions on **Abilities**, or increased resource costs. Positive statuses provide bonuses or unique narrative permissions.
+The specific rules modification imposed by the status once activated. This usually involves penalties to **Attributes**, restrictions on **Techniques**, or increased resource costs. Positive statuses provide bonuses or unique narrative permissions.
 
 7. **Resolution**
 ~~~~~~~~~~~~~~~~~
@@ -54,3 +54,17 @@ Defines how and when the status is removed. The resolution of a status falls int
 Statuses as Consequences
 ------------------------
 As defined in the Outcome Brackets, **Statuses** are the primary way a GM represents the consequences of successes and failures. A **Perfect** success should feel earned through a positive status, while a **Disaster** or **Fumble** should have a lingering mechanical sting through a negative one. (See: :ref:`outcome_brackets`)
+
+.. _critical_statuses:
+
+Critical Statuses
+------------------
+**Critical Statuses** represent extreme physical or mental conditions that fundamentally alter a character's ability to interact with the world. These conditions often bypass standard resolution methods and require significant narrative or mechanical effort to overcome.
+
+**Incapacitated**
+~~~~~~~~~~~~~~~~~
+While not a standard status inflicted by a roll, **Incapacitated** is the primary critical state triggered when a character's **Health** reaches 0. 
+
+*   **Effect:** The character is completely unaware of their surroundings and cannot take any actions, narrative maneuvers, or Techniques.
+*   **Resolution:** Requires stabilizing via a **Crisis Roll** or receiving external medical/supernatural healing to restore at least 1 Health.
+*   **Full Rules:** See :ref:`incapacitated_state` for the complete rules on this state.

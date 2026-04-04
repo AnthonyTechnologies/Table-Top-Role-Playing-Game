@@ -18,7 +18,7 @@ By utilizing **2d10** for all Action Rolls, we create a mathematical **Bell Curv
 
 3. **Physical Modularity (The Card System)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The system is designed with physical reference cards in mind. **Traits**, **Abilities**, **Items**, and **Statuses** are all structured as discrete modules. Players can build their character by literal "hand," swapping cards as they progress or suffer consequences, reducing the need for constant character sheet recalculations.
+The system is designed with physical reference cards in mind. **Traits**, **Techniques**, **Items**, and **Statuses** are all structured as discrete modules. Players can build their character by literal "hand," swapping cards as they progress or suffer consequences, reducing the need for constant character sheet recalculations.
 
 4. **Accessibility (The Low Bar of Entry)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -31,9 +31,9 @@ Gameplay in [Game Name] follows a simple, repeating cycle:
 
 1.  **Intent & Action:** The player describes what their character wants to do.
 2.  **The Action Roll:** The player rolls 2d10 and adds their relevant Attribute. (See: :ref:`action_rolls`)
-3.  **The Quality Edge:** Players invoke **Quality Tags** from their Identity, Talents, or Items to gain an advantage. (See: :ref:`quality_edge`)
+3.  **Persona's Edge:** Players invoke **Persona Tags** from their Identity, Talents, or Items to gain an advantage. (See: :ref:`persona_edge`)
 4.  **The Outcome:** The result falls into one of six **Resolution Brackets** (from Disaster to Perfect Success). (See: :ref:`outcome_brackets`)
-5.  **Consequence & Evolution:** The narrative moves forward, and the character potentially gains a new **Status** or **Quality**. (See: :ref:`statuses`)
+5.  **Consequence & Evolution:** The narrative moves forward, and the character potentially gains a new **Status** or **Persona Tag**. (See: :ref:`statuses`)
 
 What You Need to Play
 ---------------------
@@ -41,7 +41,8 @@ What You Need to Play
 To start your journey, you will need:
 
 - **2d10 Dice:** For resolving Action Rolls.
-- **Character Reference Material:** Either a character sheet or a set of **Trait/Ability Cards**.
+- **Character Reference Material:** Either a character sheet or a set of **Trait/Technique Cards**.
 - **Reference Cards:** For tracking **Items** and **Statuses**.
+- **Colored Poker Chips:** Highly recommended for tracking **Character Resources**. For accessibility, chips could be marked or textured to assist colorblind players.
 - **A Game Master (GM):** To facilitate the world and assign outcomes.
 - **Fellow Players:** To form a party and explore the story together.

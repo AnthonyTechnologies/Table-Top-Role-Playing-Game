@@ -31,3 +31,11 @@ exclude_patterns = ["python-styleguide", "_build"]
 html_theme = 'furo'
 html_theme_options = {}
 
+html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
+html_js_files = [
+    'custom.js',
+]
+

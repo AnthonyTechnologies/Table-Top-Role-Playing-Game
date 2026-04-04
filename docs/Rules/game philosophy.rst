@@ -93,7 +93,7 @@ For unopposed challenges, the system divides outcomes into four states: Disaster
    :align: center
    :alt: 2d10 Probability Distribution mapped to Novice Difficulty Brackets
 
-This steep baseline — where raw chance heavily favors a Fumble or Disaster — is a core design choice. It compels players to rely heavily on their character's **Attributes**, expend **Stamina** or **Essence**, and creatively invoke **Quality Tags** to shift the mathematical curve toward Standard and Perfect outcomes.
+This steep baseline — where raw chance heavily favors a Fumble or Disaster — is a core design choice. It compels players to rely heavily on their character's **Attributes**, expend **Stamina** or **Essence**, and creatively invoke **Persona Tags** to shift the mathematical curve toward Standard and Perfect outcomes.
 
 .. _anchored_brackets_philosophy:
 
@@ -138,14 +138,14 @@ Choosing a higher anchor (e.g., Ref + 3) shifts the requirement toward the "tail
    :align: center
    :alt: +16 Expert Attribute-Anchored Brackets
 
-.. _contested_rolls_philosophy:
+.. _contested_roll_statistics:
 
-Contested Rolls
-^^^^^^^^^^^^^^^
+Contested Roll Statistics
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In combat and direct opposition, the system relies on the mathematical difference between the attacker's roll and the defender's roll to determine the narrative outcome: Miss, Glance, Hit, or Critical. 
 
-By grounding this system in the difference of two 2d10 checks, it mathematically centers the results over 0, naturally generating a clean bell curve of contested outcomes with a realistic chance of spectacular criticals without requiring external charts.
+By grounding this system in the difference of two 2d10 checks, without any modifiers, it mathematically centers the results over 0, naturally generating a clean bell curve of contested outcomes with a realistic chance of spectacular criticals without requiring external charts.
 
 .. image:: images/contested_brackets.svg
    :width: 700px

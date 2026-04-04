@@ -1,0 +1,81 @@
+/* 
+  Custom CSS for Table Top Role Playing Game documentation.
+  This allows de-emphasizing text blocks.
+*/
+
+.deemphasized {
+    color: var(--color-foreground-muted) !important;
+    opacity: 0.8;
+    font-size: 0.95em;
+    font-style: italic;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.methodology-content {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    overflow: hidden;
+    max-height: 1000px;
+}
+
+.methodology-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.methodology-btn {
+    font-size: 0.75em;
+    padding: 2px 8px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--color-foreground-muted);
+    background: transparent;
+    color: var(--color-foreground-muted);
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.methodology-btn:hover {
+    background: var(--color-foreground-muted);
+    color: var(--color-background-primary);
+}
+
+.methodology-toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.methodology-btn.global-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: var(--color-foreground-muted);
+    transition: color 0.2s;
+    cursor: pointer;
+    width: 22px;
+    height: 23px;
+}
+
+.methodology-btn.global-icon svg {
+    width: 21px !important;
+    height: 21px !important;
+}
+
+.methodology-btn.global-icon:hover {
+    background: transparent;
+    color: var(--color-foreground-primary);
+}
+
+.methodology-btn.global-icon.active {
+    color: var(--color-link);
+}
